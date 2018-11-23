@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "1",
+    "Nome": "Xperto",
+    "Rank": "1",
+    "Lvl": "107"
+  },
+  {
+    "Id": "2",
+    "Nome": "KingZurg",
+    "Rank": "2",
+    "Lvl": "88"
+  },
+  {
+    "Id": "3",
+    "Nome": "Zazui",
+    "Rank": "3",
+    "Lvl": "73"
+  },
+  {
+    "Id": "4",
+    "Nome": "Simtec",
+    "Rank": "4",
+    "Lvl": "55"
+  }
+]

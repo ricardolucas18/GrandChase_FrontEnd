@@ -1,0 +1,27 @@
+[
+  {
+    "Id": "1",
+    "Titulo": "It's time to get Slimy!",
+    "Texto": "You can find every informations about the event on our Forum"
+  },
+  {
+    "Id": "2",
+    "Titulo": "It's May Day ",
+    "Texto": "It's May yay"
+  },
+  {
+    "Id": "3",
+    "Titulo": "Notice - No maintenance",
+    "Texto": "We would like to announce that there will be no maintenance this week."
+  },
+  {
+    "Id": "4",
+    "Titulo": "Good Morning Chasers!",
+    "Texto": "Our Maintenance has been completed and you can continue playing again"
+  },
+  {
+    "Id": "5",
+    "Titulo": "[Event Over]",
+    "Texto": "Monthly Event is Over"
+  }
+]

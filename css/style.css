@@ -1,0 +1,303 @@
+.body-index, .body-noticia, .body-newNoticia{
+	background-color:rgb(10, 10, 15);
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+	color:white;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+#teste {
+  color:white;
+}
+
+.header {
+  height: 30%;
+  
+  background-color:rgb(10, 10, 15);
+}
+
+.column-one {
+    background:rgb(10, 10, 15);	
+	box-sizing: border-box;
+}
+.on {
+    color:#7FFF00;
+}
+.off {
+    color:red;
+}
+.manu {
+    color:yellow;
+}
+
+.nivel {
+    color:#00FF00;
+}
+.server {
+    color:#0000FF;
+}
+.gold {
+    color:#DAA520;
+}
+
+
+.stats-title{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:white;
+}
+
+.stats-nivel {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:white;
+}
+
+.stats-server{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:white;
+}
+
+.stats-gold{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:white;
+}
+
+.column-two {
+	color: White;
+	margin-top:10%;
+    background: rgb(10, 10, 15);
+    box-sizing: border-box;
+}
+.column-three {
+    background: rgb(10, 10, 15);
+    box-sizing: border-box;
+}
+.button-download {
+	margin-top:5%;
+	margin-bottom:5%;
+	height:50px;
+	width: 100%;
+	padding:0%;
+	background-color:#5385d2;
+    /*background-color: #FF6347;*/
+	font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center center;
+    text-decoration: none;
+    font-size: 250%;
+	font-weight: 1000%;
+	cursor: pointer;
+    /*border: 2px solid #4CAF50;*/
+}
+
+.button-logout {
+	margin-top:5%;
+	height:50px;
+	width: 100%;
+	padding:0%;
+    /*background-color: #FF6347;*/
+	font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center center;
+    text-decoration: none;
+    font-size: 250%;
+	font-weight: 1000%;
+	cursor: pointer;
+    /*border: 2px solid #4CAF50;*/
+}
+
+.button-insert-login {
+    background-color: #4CAF50;
+	font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+	font-size: 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-insert-login:hover {
+    background-color: #09F
+}
+
+.button-login {
+	margin-top:5%;
+	height:50px;
+	width: 150px;
+	padding:0px;
+    background-color: White;
+    border: none;
+    color: Black;
+	font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center center;
+    text-decoration: none;
+    font-size: 20px;
+	font-weight: 500px;
+	border: 3px solid Black;
+	cursor: pointer;
+    /*border: 2px solid #4CAF50;*/
+}
+.button-registo {
+	margin-top:5%;
+	height:50px;
+	width: 150px;
+	padding:0px;
+    background-color: White;
+    border: none;
+    color: Black;
+	font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center center;
+    text-decoration: none;
+    font-size: 20px;
+	font-weight: 500;
+	border: 3px solid Black;
+	cursor: pointer;
+    /*border: 2px solid #4CAF50;*/
+}
+.server-box{
+	margin:5%;
+	border-style: solid;
+	border-color:White;
+	background-color:#808080;
+}
+
+.ranking-box{
+	margin:5%;
+	color:white;
+	border-style: solid;
+	border-color:White;
+	background-color:grey;
+}
+
+.list-group{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.server-box-title{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: White;
+}
+
+.america-server{
+	margin-left:5%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: White;
+}
+
+.europe-server{
+	margin-left:5%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: White;
+}
+
+.asia-server{
+	margin-left:5%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: White;
+}
+.button-download:hover {
+	background-color: #3e8e41
+	
+	}
+	
+.button-login:hover {
+	background-color: #09F
+	}
+.button-registo:hover {
+	background-color: #09F
+	}
+
+.title{
+	font-size: 35px;
+	font-weight: 1000px;
+	font-family: Verdana, sans-serif;
+	color: Crimson;
+}
+
+.container{
+	background-color: rgb(10, 10, 15);
+	
+}
+.intro-text{
+	color:White;
+	line-height: 1.8;
+	font-size: 13px;
+	font-family: Verdana, sans-serif;
+}
+
+#button-import-image{
+    color:white;
+}
+
+.form-control-label{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: White;
+}
+
+.btn-success{
+	margin-top:5%;
+	height:40px;
+	width: 150px;
+	padding:0px;
+    background-color: White;
+    border: none;
+    color: Black;
+	font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center center;
+    text-decoration: none;
+    font-size: 20px;
+	font-weight: 500px;
+	border: 3px solid Black;
+	cursor: pointer;
+}
+.btn-warning{
+	margin-left: 0px;
+	margin-top:10%;
+	cursor: pointer;
+}
+
+.btn-danger{
+	margin-top:5%;
+	border: 3px white;
+	cursor: pointer;
+}
+
+.cardMargin {
+	margin-top: 5%;
+}
+
+.card-block {
+	margin-left: 5%;
+}
+
+.btn-success:hover {
+background-color: #09F
+}
+
+.buttonRight {
+	width: 150px;
+}
+
+.items {
+	margin-left: 0%;
+	background-color: #cecece;
+}
+
+.items p{
+	color: black;
+}
+
+.items h4{
+	color: black;
+}
+
+.lojaCards {
+	margin-top: 20px;
+}

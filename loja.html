@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+  <html>
+  <header>
+  <title>Grand Chase</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </header>
+  <body id="page-top" class="body-index" data-spy="scroll" data-target=".navbar-fixed-top" onLoad="navBar(); itemShop();">
+  <div class="header">
+  <center><a href="index.html"><img src="img/grandchaselogo.png" alt="Grand Chase Logo" style="width:900px;height:300px"></a></center>
+  </div>
+
+    <section>
+      <div class="container">
+        <nav id="nav" class="navbar navbar-custom" role="navigation">
+        <!-- NavBar -->
+        </nav>
+      </div>  
+    </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <button type="button" class="btn btn-primary button-download ">Download</button>
+
+          <div class="card card-primary cardMargin">
+            <div class="card-block">
+                <h2 class="stats-title">Admin</h2>
+                <h3 class="stats-nivel">Nível: <span class="nivel">100</span></h3>
+                <h3 class="stats-server">Server: <span class="server">Asia</span></h3>
+                <h3 class="stats-gold">Gold: <span class="gold">99999g</span></h3>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-danger button-logout" onclick="location.href='index.html'">Terminar Sessão</button>
+        </div>
+
+        <div class="col-md-6 text-center">
+           <h1 class="title">Loja de Items</h1></center>
+              <div id="items">
+              </div>
+        </div>
+
+        <div class="col-md-3">
+          <form>
+            <div class="form-group">
+              <h3 class="title">Adicionar Item</h1>
+              <label for="formGroupExampleInput" style="color: #fff">Titulo</label>
+              <input type="text" class="form-control" id="inputTitle">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2" style="color: #fff">Descricão</label>
+              <input type="text" class="form-control" id="inputText">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2" style="color: #fff">Preço</label>
+                <input type="text" class="form-control" id="inputPreco" placeholder="€">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2" style="color: #fff">Imagem</label>
+                <input type="text" class="form-control" id="inputImg" placeholder="Tipo de Item">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="addItem()" >Adicionar</button>
+          </form>
+
+          <div id="success">
+            <!-- Sucesso -->
+          </div>
+
+          <button type="button" class="btn btn-warning">Gerir Items</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BootStrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/lib.js"></script>
+  </body>
+  </html>

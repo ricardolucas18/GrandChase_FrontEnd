@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "1",
+    "Titulo": "Sword",
+    "Descricao": "Great Sword",
+    "Preco": "2,50",
+    "Imagem": "sword.jpg"
+  },
+  {
+    "Id": "2",
+    "Titulo": "Shield",
+    "Descricao": "Great Shield",
+    "Preco": "1,50",
+    "Imagem": "shield.jpg"
+  },
+  {
+    "Id": "3",
+    "Titulo": "Ring",
+    "Descricao": "Magic Ring",
+    "Preco": "1,00",
+    "Imagem": "ring.jpg"
+  }
+]
